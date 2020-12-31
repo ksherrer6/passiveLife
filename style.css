@@ -23,8 +23,12 @@ h1, h2, h3 {
 }
 
 body{
-    background-color:rgba(255, 255, 0, 0.65);
+    background-color:rgba(255, 255, 0, 0.5);
     font-family: 'Roboto', sans-serif;
+    
+    margin:0;
+    padding:0;
+    background-position: fixed;
     
 }
 div ul{
@@ -63,10 +67,17 @@ li:active {
     
     height:100vh;
     width: 75vw;
-    justify-content: space-between;
+    align-content: space-around;
     
 }
-
+.sectionContainer{
+   display:flex;
+   flex-direction: inherit;
+   background-color: inherit;
+   width:fit-content;
+   justify-content: center;
+   
+}
 .sec {
     border-radius:12px;
    border:5px, solid, white; 
@@ -74,6 +85,7 @@ li:active {
     height:300px;
 background-color: rgba(0,0,0,0.2);
 box-shadow: 5px 7px 7px rgba(0,0,0,0.4);
+
 }
 
 .redgrp,
