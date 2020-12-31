@@ -33,7 +33,7 @@
     <div class="mainBody" id="mainBody">main body goes here
  <div class="grngrp" id="grngrp">
   <div class="income sec" id="income">
-      <div class="incTitContain"id="incTitContain">
+      <div class="incContainer"id="incContainer">
       <h2 class="incomeTitle">income</h2>
       </div>
       <div class="passive" id="passive">passive income goes here</div>
@@ -42,7 +42,7 @@
    </div>
    
    <div class="assets sec" id="assets">
-    <h2>assets</h2>
+    <div id="astsContainer"><h2>assets</h2></div>
     <div class="realEstate" id="realEstate">real estate assets goes here</div>
 <div class="paper" id="paper">paper assets goes here</div>
  <div class="bus" id="bus">businesses goes here</div>
@@ -51,7 +51,8 @@
 </div>
 </div>
 <div class="redgrp" id="redgrp">
-   <div class="expense sec" id="expense"><h2>expenses</h2>
+    
+   <div class="expense sec" id="expense"><div id="expseContainer"><h2>expenses</h2></div>
         <div class="fixed" id="fixed">fixed expenses goes here</div>
         <div class="recurringE" id="recurringE">recurring expenses goes here</div>
         <div class="nRecurringE" id="nRecurringE">non-recurring expenses goes here</div>
@@ -59,7 +60,7 @@
     </div>
 
    <div class="liabs sec" id="liabs">
-       <h2>liabilities</h2>
+    <div id="liabsContainer">  <h2>liabilities</h2></div>
        <div class="mort" id="mort">mortgage goes here</div>
        <div class="credCards" id="credCards">credit cards goes here</div>
         <div class="loans" id="loans"><h3>loans</h3><div class="cLoan" id="cLoan">carloan</div></div>
@@ -73,13 +74,7 @@
    
    
     <!-- script -->
-    <script src="script.js">function mOver(obj) {
-        obj.innerHTML = "Thank You"
-      }
-      
-      function mOut(obj) {
-        obj.innerHTML = "Mouse Over Me"
-      }</script>
+    <script src="script.js"></script>
     
 </body>
 </html>

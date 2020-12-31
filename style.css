@@ -83,6 +83,19 @@ background-color: rgba(0,0,0,0.2);
     border-radius:5px;
     background-color: #ff0000;
 }
-/* .animate__animated:hover{ 
-animation:flipInX;
-}*/
+/* Media Querry */
+@media only screen and (max-width:1000px){
+    .mainBody{
+        margin:35%;
+        padding:0;
+        display:flex;
+        justify-content: center;
+    }
+    .grngrp,
+    .redgrp {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+}
