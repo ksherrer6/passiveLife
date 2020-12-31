@@ -76,8 +76,7 @@ liabsContainer.addEventListener("mouseenter", function( event ) {
   element.classList.add("animate__animated");
   element.classList.add("animate__flipOutX");
   //on mouseout remove flip out, add flip in
-    liabsContainer.addEventListener("mouseout", function( event ) {
+  liabsContainer.addEventListener("mouseout", function( event ) {
     element.classList.remove("animate__flipOutX");
     element.classList.add("animate__flipInX");});
     });
-  
